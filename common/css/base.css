@@ -472,6 +472,7 @@ a:focus {
   display: flex;
   gap: 16px;
   padding: 72px 40px 90px 40px;
+  background-color: #FAFAFA;
 }
 
 .fotter__link-list {
