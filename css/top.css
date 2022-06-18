@@ -1,0 +1,244 @@
+/* ==========================================================================
+トップページ独自のパーツの設定
+========================================================================== */
+
+.content__title {
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+
+.content__description {
+    margin-top: 5px;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    font-weight: 300;
+}
+
+.content__note {
+    margin-top: 5px;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+}
+
+.link__white {
+    color: #fff;
+    text-decoration: underline #fff 2px;
+}
+
+.link__white:hover {
+    color: #e2e2e2;
+}
+
+.content__link {
+    font-size: 14px;
+    font-weight: bold;
+}
+.content__top {
+    background-image: url("/images/top.png");
+    width: 1200px;
+    height: 1110px;
+    color: #fff;
+}
+
+.header-logo-wrapper {
+    display: block;
+    padding: 16px 40px;
+}
+
+.content__top--inner {
+    width: 680px;
+    gap: 40px;
+    margin: 840px 0 0 390px;
+}
+
+.content__top .image__qr {
+    width: 115px;
+    height: 117px;
+    margin-top: 5px;
+}
+
+
+
+.content__step2 {
+    background-image: url("/images/step2.png");
+    width: 1200px;
+    height: 305px;
+    color: #fff;
+}
+.content__step2--inner, .content__step3--inner  {
+    padding: 100px 130px 0 390px;
+}
+
+.content__step3 {
+    background-image: url("/images/step3.png");
+    width: 1200px;
+    height: 326px;
+    color: #fff;
+}
+
+.content__information--wrapper {
+    height: 1254px;
+    background-image: url("/images/background.png");
+    padding: 30px 0;
+}
+
+.content__what-is, .content__intro{
+    width: 1120px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.content__what-is .content__title{
+    padding: 25px 50px;
+    background-color: #2A4FDE;
+}
+
+.content__description--area {
+    margin-top: 0;
+    padding: 40px 40px 50px 40px;
+    background-color: #fff;
+    border: solid 15px #B3B3B3;
+    border-top: none;
+    gap: 40px;
+}
+
+.image__hogepay {
+    width: 560px;
+    height: 220px;
+    margin: auto 0 auto 10px;
+}
+
+
+.content__intro .content__title{
+    padding: 25px 50px;
+    background-color: #ADA13F;
+}
+
+.career__name {
+    font-size: 2.8rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.content__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__intro .image__qr {
+    display: block;
+    margin: 0 auto;
+}
+
+.button__yellow {
+    padding: 13px 62px;
+    margin: 5px 0 6px 0;
+    color: #fff;
+    background-color: #ADA13F;
+    font-size: 14px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #b4b4b4; 
+}
+
+.content__qr {
+    gap: 25px;
+}
+
+.content__intro .content__description {
+    margin: auto 0;
+}
+
+.content__payment {
+    margin: 0 30px 0 80px;
+    gap: 30px;
+}
+.image_payment {
+    display: block;
+}
+
+.content__question {
+    background-color: #2A52CB;
+    padding-bottom: 52px;
+}
+
+.content__question .content__title {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.content__question .content__flex {
+    justify-content: center;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.image__hoge-woman {
+    display: block;
+    height: 65px;
+    margin: auto 0;
+}
+
+.image__reverse {
+    transform: scale(-1, 1);
+}
+
+.font__white {
+    color: #fff;
+}
+
+.font__yellow {
+    color: #ADA13F;
+}
+
+.font__bold {
+    font-weight: 400;
+}
+
+.q_big {
+    color: #2A52CB;
+    font-size: 4rem;
+}
+
+.content__question--inner {
+    width: 800px;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 30px 40px;
+}
+
+.content__download {
+    margin-top: 40px;
+    padding: 30px 0 20px 0;
+    text-align: center;
+    background-color: #FAFAFA;
+    font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
+
+.content__download .content__title{
+    font-weight: bold;
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
+}
+
+.content__download .image__qr {
+    width: 115px;
+    height: 117px;
+    margin: 28px 0 5px 0;
+}
+
+.button__blue {
+    padding: 13px 62px;
+    margin: 20px 0 6px 0;
+    color: #fff;
+    background-color: #3A47B1;
+    font-size: 14px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #b4b4b4; 
+}
+
+.content__below-download {
+    padding: 35px 40px;
+    font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
